@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0176/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0176/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 地衹上將溫太保傳
+  date: '2015-08-29 00:53:57.815811'
+  source:
+    repository: kanripo
+    path: KR5c0176
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0176_000-HFL.yaml, hash: 'sha256:8c0162271f89963f7cba669d7c66eb4a3b96c80ac4ee5c63ae44ea0349281674'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0176_000-HFL.markers.yaml, hash: 'sha256:11a92a350d3183baafc9c38d308fae5e59eb7a095fdf8aef17ee92ee26d3d197'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0176_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4968
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e059db53227da4a12faf9926185933d215e20f89b3e637a2a7b58c50aaee5102
